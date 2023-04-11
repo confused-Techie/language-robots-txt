@@ -1,0 +1,25 @@
+fileTypes: [
+  "robots.txt"
+]
+name: "robots.txt"
+scopeName: "source.robotstxt"
+patterns: [
+  {
+    name: "comment.line.number-sign"
+    match: "# .*"
+  }
+  {
+    #match: "^(?i:(User-Agent)|(Allow)|(Disallow)|(Sitemap))(:)([^#\\n]*)$"
+    match: "^(?i:User-Agent|Allow|Disallow|Sitemap)(:)([^#\n]*)$"
+    captures:
+      '0':
+        name: "support.constant"
+      '1':
+        name: "punctuation.separator.key-value"
+      '2':
+        name: "variable.other"
+  }
+  {
+    match: "*"
+  }
+]
