@@ -9,17 +9,86 @@ patterns: [
     match: "# .*"
   }
   {
-    #match: "^(?i:(User-Agent)|(Allow)|(Disallow)|(Sitemap))(:)([^#\\n]*)$"
-    match: "^(?i:User-Agent|Allow|Disallow|Sitemap)(:)([^#\n]*)$"
+    match: "^(?i:User-Agent|Allow|Disallow|Sitemap)(:)([^#\\n]*)"
     captures:
       '0':
         name: "support.constant"
       '1':
         name: "punctuation.separator.key-value"
       '2':
-        name: "variable.other"
-  }
-  {
-    match: "*"
+        patterns: [
+          {
+            # * Special Character
+            name: "keyword.other"
+            match: "\\*"
+          }
+          {
+            # $ Special Character
+            name: "keyword.other"
+            match: "\\$"
+          }
+          {
+            name: "string"
+            match: "(/)?(.+)(/){0,1}[^#\\n]*$"
+            captures:
+              '1':
+                name: "punctuation.other"
+              '2':
+                patterns: [
+                  {
+                    include: "#symbols"
+                  }
+                ]
+              '3':
+                name: "punctuation.other"
+          }
+        ]
   }
 ]
+repository:
+  symbols:
+    patterns: [
+      {
+        name: "keyword.other"
+        match: "\\*"
+      }
+      {
+        name: "keyword.other"
+        match: "\\$"
+      }
+      {
+        name: "constant.language"
+        match: "\\?"
+      }
+      {
+        name: "constant.language"
+        match: "="
+      }
+      {
+        name: "constant.language"
+        match: "&"
+      }
+      {
+        name: "support.type"
+        match: "[a-zA-Z]{2,5}://"
+      }
+      {
+        name: "punctuation.other"
+        match: "/"
+      }
+      {
+        # Match Known Google User Agents
+        name: "support.class"
+        match: "Storebot-Google|APIs-Google|Mediapartners-Google|Googlebot-Image|Googlebot-News|GoogleProducer|Googlebot-Video|AdsBot-Google-Mobile-Apps|FeedFetcher-Google|Google-Read-Aloud|Google-Site-Verification|AdsBot-Google-Mobile|AdsBot-Google|Googlebot"
+      }
+      {
+        # Match the Internet Archive User Agents
+        name: "support.class"
+        match: "archive.org_bot"
+      }
+      {
+        # Match Pulsar User Agents
+        name: "support.class"
+        match: "Pulsar-Edit-Bot"
+      }
+    ]
