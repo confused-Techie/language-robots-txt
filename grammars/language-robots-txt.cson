@@ -91,4 +91,9 @@ repository:
         name: "support.class"
         match: "Pulsar-Edit-Bot"
       }
+      {
+        # Match DuckDuckGo User Agents
+        name: "support.class"
+        match: "DuckDuckBot"
+      }
     ]

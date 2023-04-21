@@ -16,3 +16,4 @@ The Syntax highlighter for `robots.txt` files, made for [Pulsar](https://github.
   - [Google](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)
   - [Internet Archive](https://archive.org/details%2Farchive.org_bot%2F)
   - Pulsar Backend
+  - [DuckDuckGo](https://help.duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/)
