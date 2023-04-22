@@ -25,3 +25,5 @@ The Syntax highlighter for `robots.txt` files, made for [Pulsar](https://github.
   - [Exalead](https://www.exalead.com/search/webmasterguide)
   - [Facebook](https://developers.facebook.com/docs/sharing/webmasters/crawler)
   - [Apple](https://support.apple.com/en-us/HT204683)
+* Provides Autocompletions for valid directives within a `robots.txt` file.
+* Provides Autocompletions for some known User-Agents

@@ -1,0 +1,78 @@
+'.source.robotstxt':
+  'Allow':
+    'prefix': 'Allow'
+    'body': 'Allow: ${1:*}\n$2'
+    'description': 'Allows this groups User-Agent to crawl the defined pages.'
+  'Disallow':
+    'prefix': 'Disallow'
+    'body': 'Disallow: ${1:*}\n$2'
+    'description': 'Does not allow this groups User-Agent to crawl the defined pages.'
+  'Sitemap':
+    'prefix': 'Sitemap'
+    'body': 'Sitemap: $1'
+    'description': 'Defines the sitemap URL location.'
+  'User-Agent':
+    'prefix': 'User-Agent'
+    'body': 'User-Agent: ${1:*}\n$2'
+    'description': 'Defines what User-Agents the rules in this group effect.'
+'.source.robotstxt .support.constant .string':
+  'User-Agent: Googlebot':
+    'prefix': 'Googlebot'
+    'body': 'Googlebot'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/googlebot'
+  'User-Agent: Googlebot-Image':
+    'prefix': 'Googlebot-Image'
+    'body': 'Googlebot-Image'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/appearance/favicon-in-search#crawler'
+  'User-Agent: Googlebot-News':
+    'prefix': 'Googlebot-News'
+    'body': 'Googlebot-News'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers'
+  'User-Agent: Googlebot-Video':
+    'prefix': 'Googlebot-Video'
+    'body': 'Googlebot-Video'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers'
+  'User-Agent: APIs-Google':
+    'prefix': 'APIs-Google'
+    'body': 'APIs-Google'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/apis-user-agent'
+  'User-Agent: AdsBot-Google-Mobile':
+    'prefix': 'AdsBot-Google-Mobile'
+    'body': 'AdsBot-Google-Mobile'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers'
+  'User-Agent: AdsBot-Google':
+    'prefix': 'AdsBot-Google'
+    'body': 'AdsBot-Google'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers'
+  'User-Agent: Mediapartners-Google':
+    'prefix': 'Mediapartners-Google'
+    'body': 'Mediapartners-Google'
+    'descriptionMoreURL': 'https://support.google.com/adsense/answer/99376'
+  'User-Agent: GoogleProducer':
+    'prefix': 'GoogleProducer'
+    'body': 'GoogleProducer'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers'
+  'User-Agent: GoogleOther':
+    'prefix': 'GoogleOther'
+    'body': 'GoogleOther'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers'
+  'User-Agent: AdsBot-Google-Mobile-Apps':
+    'prefix': 'AdsBot-Google-Mobile-Apps'
+    'body': 'AdsBot-Google-Mobile-Apps'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers'
+  'User-Agent: FeedFetcher-Google':
+    'prefix': 'FeedFetcher-Google'
+    'body': 'FeedFetcher-Google'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/feedfetcher'
+  'User-Agent: Google-Read-Aloud':
+    'prefix': 'Google-Read-Aloud'
+    'body': 'Google-Read-Aloud'
+    'descriptionMoreURL': 'https://developers.google.com/search/docs/crawling-indexing/read-aloud-user-agent'
+  'User-Agent: Google-Site-Verification':
+    'prefix': 'Google-Site-Verification'
+    'body': 'Google-Site-Verification'
+    'descriptionMoreURL': 'https://support.google.com/webmasters/answer/9008080'
+  'User-Agent: Storebot-Google':
+    'prefix': 'Storebot-Google'
+    'body': 'Storebot-Google'
+    'descriptionMoreURL': 'https://support.google.com/merchants/answer/13294660'
