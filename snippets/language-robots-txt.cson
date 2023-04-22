@@ -96,3 +96,6 @@
   'User-Agent: Yandex':
     'prefix': 'YandexBot'
     'body': 'YandexBot'
+  'User-Agent: Exalead':
+    'prefix': 'Exabot'
+    'body': 'Exabot'
