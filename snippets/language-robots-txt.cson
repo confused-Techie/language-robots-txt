@@ -90,15 +90,19 @@
   'User-Agent: Bing':
     'prefix': 'BingBot'
     'body': 'Bingbot'
+    'descriptionMoreURL': 'https://www.bing.com/webmasters/help/how-to-create-a-robotstxt-file-cb7c31ec'
   'User-Agent: Yahoo':
     'prefix': 'Slurp'
     'body': 'Slurp'
+    'descriptionMoreURL': 'https://help.yahoo.com/kb/learn-submit-website-yahoo-robotstxt-directive-sln2213.html'
   'User-Agent: Yandex':
     'prefix': 'YandexBot'
     'body': 'YandexBot'
   'User-Agent: Exalead':
     'prefix': 'Exabot'
     'body': 'Exabot'
-  'User-Agent: Applebot':
+    'descriptionMoreURL': 'https://www.exalead.com/search/webmasterguide'
+  'User-Agent: Apple':
     'prefix': 'Applebot'
     'body': 'Applebot'
+    'descriptionMoreURL': 'https://support.apple.com/en-us/HT204683'
