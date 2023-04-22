@@ -99,3 +99,6 @@
   'User-Agent: Exalead':
     'prefix': 'Exabot'
     'body': 'Exabot'
+  'User-Agent: Applebot':
+    'prefix': 'Applebot'
+    'body': 'Applebot'
