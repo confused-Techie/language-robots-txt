@@ -76,3 +76,14 @@
     'prefix': 'Storebot-Google'
     'body': 'Storebot-Google'
     'descriptionMoreURL': 'https://support.google.com/merchants/answer/13294660'
+  'User-Agent: Archive.org':
+    'prefix': 'archive.org_bot'
+    'body': 'archive.org_bot'
+    'descriptionMoreURL': 'https://archive.org/details%2Farchive.org_bot%2F'
+  'User-Agent: Pulsar Edit':
+    'prefix': 'Pulsar-Edit-Bot'
+    'body': 'Pulsar-Edit-Bot'
+  'User-Agent: DuckDuckGo':
+    'prefix': 'DuckDuckBot'
+    'body': 'DuckDuckBot'
+    'descriptionMoreURL': 'https://help.duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/'
