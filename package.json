@@ -1,6 +1,6 @@
 {
   "name": "language-robots-txt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Robots.txt Syntax Highlighting in Pulsar",
   "scripts": {
     "test": "pulsar --test spec"

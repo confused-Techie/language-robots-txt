@@ -87,3 +87,12 @@
     'prefix': 'DuckDuckBot'
     'body': 'DuckDuckBot'
     'descriptionMoreURL': 'https://help.duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/'
+  'User-Agent: Bing':
+    'prefix': 'BingBot'
+    'body': 'Bingbot'
+  'User-Agent: Yahoo':
+    'prefix': 'Slurp'
+    'body': 'Slurp'
+  'User-Agent: Yandex':
+    'prefix': 'YandexBot'
+    'body': 'YandexBot'
